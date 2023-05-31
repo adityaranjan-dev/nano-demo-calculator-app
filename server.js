@@ -9,7 +9,7 @@ app.use(express.json());
 
 const baseRouter = express.Router();
 
-baseRouter.get('/greeting', (req, res) => {
+baseRouter.get('/greeting ', (req, res) => {
     
     return res.send('Hello world!');
 });
